@@ -1,0 +1,7 @@
+This is the code of my masterthesis. 
+
+My masterthesis built a model to forecast the very short term Domestic Hot Water(DHW) consumption on single house hold level based on LSTM. The forecasting type is probability forecasting. So the output of the forecasting model is Probability density function(PDF).
+
+The code in this repo is suitable for forecasting not only DHW load, but also other similar load like electrical load.
+
+For modular developing reason the code is programmed by classes and functions. General functions are coded in ann_abstr.py, and the others are for specific models like lstm.py for lstm model.
